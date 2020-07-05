@@ -28,11 +28,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrC-gz-AhJ">
+                                <rect key="frame" x="174.66666666666666" y="64" width="65" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👻" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alb-UW-xZ0">
+                                <rect key="frame" x="20" y="808" width="34" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="TVx-QN-kMb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="alb-UW-xZ0" secondAttribute="trailing" constant="8" symbolic="YES" id="3fa-nP-VPb"/>
                             <constraint firstItem="TVx-QN-kMb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="GDs-Ii-oWf"/>
+                            <constraint firstItem="alb-UW-xZ0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Hl6-z6-UJO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TVx-QN-kMb" secondAttribute="trailing" constant="20" id="J3G-5Q-2fc"/>
+                            <constraint firstItem="JrC-gz-AhJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="OrW-Yz-ECi"/>
+                            <constraint firstItem="JrC-gz-AhJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="hm9-l9-6HG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="alb-UW-xZ0" secondAttribute="bottom" constant="18" id="hpO-KX-kz1"/>
                             <constraint firstItem="cWD-Tu-Cib" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xkg-BM-Mw0"/>
                             <constraint firstItem="cWD-Tu-Cib" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ybJ-C6-Dkr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TVx-QN-kMb" secondAttribute="bottom" constant="25" id="zbx-HC-4PO"/>
